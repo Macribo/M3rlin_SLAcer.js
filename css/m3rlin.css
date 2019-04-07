@@ -24,13 +24,13 @@
 }
 .modal-body {
   background-image: url('../images/brijan-pale.gif');
-  display: flex;
-  /* display: none; */
+  /* display: flex; */
+  display: none;
   align-content: center;
   justify-content: center;
 }
 .m3rlin-options,
-.m3rlin-main-menu-btns {
+m34 {
   /* display: none; */
   background-image: url('../images/brijan-pale.gif');
   display: flex;
@@ -53,7 +53,6 @@
 }
 .modal-footer {
   display: none;
-  background-image: url('../images/brijan-pale.gif');
 }
 #m3rlin-continue {
   background: rgb(171, 250, 171);

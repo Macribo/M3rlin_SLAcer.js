@@ -13,7 +13,15 @@ $(document).ready(function() {
 
   $('#quick').click(function() {
     $('#quick-confirm').fadeIn('slow');
-    $('.modal-footer').fadeIn('slow');
+    $('.m3rlin-greeter').css({ display: 'none' });
     $('.m3rlin-main-menu-btns').css({ display: 'none' });
+    $('.m3rlin-quickstart-btns').fadeIn('slow');
+    $('.modal-footer').fadeIn('slow');
+  });
+
+  $('#m3rlin-back').click(function() {
+    $('#quick-confirm').css({ display: 'none' });
+    $('.modal-footer').css({ display: 'none' });
+    $('.m3rlin-main-menu-btns').fadeIn('slow');
   });
 });
