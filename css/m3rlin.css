@@ -52,7 +52,7 @@ m34 {
   transition: 0.3s;
 }
 .modal-footer {
-  display: none;
+  /* display: flex; */
 }
 #m3rlin-continue {
   background: rgb(171, 250, 171);
@@ -70,7 +70,7 @@ m34 {
   display: none;
 }
 .m3rlin-quickstart-btns {
-  display: flex;
+  display: none;
   align-content: space-between;
   justify-content: center;
 }

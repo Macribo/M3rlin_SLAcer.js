@@ -21,7 +21,8 @@ $(document).ready(function() {
 
   $('#m3rlin-back').click(function() {
     $('#quick-confirm').css({ display: 'none' });
-    $('.modal-footer').css({ display: 'none' });
+    $('.m3rlin-quickstart-btns').css({ display: 'none' });
+
     $('.m3rlin-main-menu-btns').fadeIn('slow');
   });
 });
