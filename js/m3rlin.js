@@ -1,3 +1,11 @@
+backToMain = () => {
+  $('#quick-confirm').css({ display: 'none' });
+
+  $('#greeter').fadeIn('slow');
+  $('.m3rlin-quickstart-btns').css({ display: 'none' });
+  $('.m3rlin-main-menu-btns').fadeIn('slow');
+};
+
 $(document).ready(function() {
   //   alert('hi from m3rlin.js');
   //   if ($slicerLayerHeight.val() > 100) {
@@ -21,10 +29,14 @@ $(document).ready(function() {
   });
 
   $('#m3rlin-back').click(function() {
-    $('#quick-confirm').css({ display: 'none' });
+    backToMain();
+  });
 
-    $('#greeter').fadeIn('slow');
-    $('.m3rlin-quickstart-btns').css({ display: 'none' });
-    $('.m3rlin-main-menu-btns').fadeIn('slow');
+  $('#m3rlin-continue').on('click', function() {
+    window.print();
+    alert('aaaannnndd... Print!');
+    setTimeout(function() {
+      backToMain();
+    }, 500);
   });
 });
