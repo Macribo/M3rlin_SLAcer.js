@@ -3,4 +3,5 @@ $(document).ready(function() {
   //   if ($slicerLayerHeight.val() > 100) {
   //     alert('Wait - are you sure??');
   //   }
+  $('#m3rlinModal').modal('toggle');
 });

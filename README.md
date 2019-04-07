@@ -1,7 +1,16 @@
 # SLAcer.js ([demo](http://lautr3k.github.io/SLAcer.js/))
+
 ![Screenshot](/screenshot.png?raw=true)
 
+This project is a fork of SLAcer.js adapted for the M3rlin project.
+
+Checkout the original SlAcer.js at
+
+Additional resources:
+brijan.gif : http://thepatternlibrary.com/
+
 # Main features
+
 - Browse or drag/drop STL file.
 - Mesh information: size, volume, cost, etc...
 - Mesh transformation: scale, rotate, translate, mirror.
