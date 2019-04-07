@@ -4,4 +4,8 @@ $(document).ready(function() {
   //     alert('Wait - are you sure??');
   //   }
   $('#m3rlinModal').modal('toggle');
+
+  $('#settings').click(function() {
+    $('#m3rlinModal').modal('toggle');
+  });
 });
