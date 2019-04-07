@@ -8,6 +8,7 @@ Checkout the original SlAcer.js at
 
 Additional resources:
 brijan.gif : http://thepatternlibrary.com/
+favicon.ico : https://game-icons.net/1x1/delapouite/porcelain-vase.html
 
 # Main features
 
