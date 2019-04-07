@@ -25,35 +25,53 @@
 .modal-body {
   background-image: url('../images/brijan-pale.gif');
   display: flex;
+  /* display: none; */
   align-content: center;
   justify-content: center;
 }
-.m3rlin-options {
+.m3rlin-options,
+.m3rlin-main-menu-btns {
+  /* display: none; */
+  background-image: url('../images/brijan-pale.gif');
   display: flex;
   justify-content: space-around;
 
-  width: 90%;
-  margin: 20px;
+  width: 100%;
+  margin: 0px;
   padding: 50px;
 }
 .m3rlin-btn {
   background-color: white;
-  border: 5px solid #2a93ad;
+  border: 5px solid #696969;
   border-radius: 10px;
   background-size: contain;
   font-size: 1.5em;
-  /* margin: 10px; */
+  margin: 10px;
   align-content: center;
-  padding: 5% 7% 5% 7%;
-  transition: 0.5s;
+  padding: 3% 7% 3% 7%;
+  transition: 0.3s;
 }
-
-.m3rlin-btn:hover {
-  background: #2a93ad;
+.modal-footer {
+  display: none;
+  background-image: url('../images/brijan-pale.gif');
+}
+#m3rlin-continue {
+  background: rgb(171, 250, 171);
+  transition: 0.3s;
+}
+.m3rlin-btn:hover,
+#m3rlin-continue:hover {
+  background: #696969;
   color: white;
   border: 5px solid orange;
 }
 
 #quick-confirm {
+  /* display: flex; */
   display: none;
+}
+.m3rlin-quickstart-btns {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
 }

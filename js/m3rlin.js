@@ -13,6 +13,7 @@ $(document).ready(function() {
 
   $('#quick').click(function() {
     $('#quick-confirm').fadeIn('slow');
-    $('.m3rlin-options').css({ display: 'none' });
+    $('.modal-footer').fadeIn('slow');
+    $('.m3rlin-main-menu-btns').css({ display: 'none' });
   });
 });
