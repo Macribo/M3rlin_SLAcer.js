@@ -10,4 +10,9 @@ $(document).ready(function() {
     // $('#hide').css({ display: 'block' });
     $('#hide').fadeIn('slow');
   });
+
+  $('#quick').click(function() {
+    $('#quick-confirm').fadeIn('slow');
+    $('.m3rlin-options').css({ display: 'none' });
+  });
 });
