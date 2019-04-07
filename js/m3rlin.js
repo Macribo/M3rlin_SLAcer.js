@@ -4,7 +4,7 @@ $(document).ready(function() {
   //     alert('Wait - are you sure??');
   //   }
   $('#m3rlinModal').modal('toggle');
-
+  $('.m3rlin-quickstart-btns').css({ display: 'none' });
   $('#settings').click(function() {
     $('#m3rlinModal').modal('toggle');
     // $('#hide').css({ display: 'block' });
@@ -17,12 +17,14 @@ $(document).ready(function() {
     $('.m3rlin-main-menu-btns').css({ display: 'none' });
     $('.m3rlin-quickstart-btns').fadeIn('slow');
     $('.modal-footer').fadeIn('slow');
+    $('#greeter').css({ display: 'none' });
   });
 
   $('#m3rlin-back').click(function() {
     $('#quick-confirm').css({ display: 'none' });
-    $('.m3rlin-quickstart-btns').css({ display: 'none' });
 
+    $('#greeter').fadeIn('slow');
+    $('.m3rlin-quickstart-btns').css({ display: 'none' });
     $('.m3rlin-main-menu-btns').fadeIn('slow');
   });
 });

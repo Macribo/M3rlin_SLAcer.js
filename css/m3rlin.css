@@ -1,3 +1,9 @@
+.centerer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 #hide {
   /* opacity: 0.3; */
   display: none;
@@ -54,15 +60,21 @@ m34 {
 .modal-footer {
   /* display: flex; */
 }
-#m3rlin-continue {
+#m3rlin-continue,
+#quick {
   background: rgb(171, 250, 171);
   transition: 0.3s;
 }
-.m3rlin-btn:hover,
-#m3rlin-continue:hover {
+.m3rlin-btn:hover {
   background: #696969;
   color: white;
   border: 5px solid orange;
+}
+#m3rlin-continue:hover,
+#quick:hover {
+  background: #696969;
+
+  color: rgb(171, 250, 171);
 }
 
 #quick-confirm {
@@ -70,7 +82,7 @@ m34 {
   display: none;
 }
 .m3rlin-quickstart-btns {
-  display: none;
-  align-content: space-between;
-  justify-content: center;
+  /* display: none; */
+  /* align-content: space-between;
+  justify-content: center; */
 }
