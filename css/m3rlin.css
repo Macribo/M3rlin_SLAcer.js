@@ -1,6 +1,7 @@
 #hide {
-  opacity: 0.3;
+  /* opacity: 0.3; */
   display: none;
+  transition: 0.5s;
 }
 .modal-header {
   color: rgb(105, 105, 105);

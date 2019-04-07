@@ -7,5 +7,7 @@ $(document).ready(function() {
 
   $('#settings').click(function() {
     $('#m3rlinModal').modal('toggle');
+    // $('#hide').css({ display: 'block' });
+    $('#hide').fadeIn('slow');
   });
 });
