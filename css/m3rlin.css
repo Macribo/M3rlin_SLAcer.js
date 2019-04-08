@@ -4,11 +4,10 @@
   justify-content: space-around;
 }
 
-/* #hide {
- 
+#hide {
   display: none;
   transition: 0.5s;
-} */
+}
 .modal-header {
   color: rgb(105, 105, 105);
   text-align: center;
