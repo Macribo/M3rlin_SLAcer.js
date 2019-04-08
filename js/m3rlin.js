@@ -11,7 +11,7 @@ $(document).ready(function() {
   //   if ($slicerLayerHeight.val() > 100) {
   //     alert('Wait - are you sure??');
   //   }
-  $('#m3rlinModal').modal('toggle');
+  //   $('#m3rlinModal').modal('toggle');
   $('.m3rlin-quickstart-btns').css({ display: 'none' });
   $('#settings').click(function() {
     $('#m3rlinModal').modal('toggle');

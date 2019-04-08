@@ -4,11 +4,11 @@
   justify-content: space-around;
 }
 
-#hide {
-  /* opacity: 0.3; */
+/* #hide {
+ 
   display: none;
   transition: 0.5s;
-}
+} */
 .modal-header {
   color: rgb(105, 105, 105);
   text-align: center;
@@ -85,4 +85,8 @@ m34 {
   /* display: none; */
   /* align-content: space-between;
   justify-content: center; */
+}
+.caution {
+  border: 4px solid orange;
+  background-color: orange;
 }
